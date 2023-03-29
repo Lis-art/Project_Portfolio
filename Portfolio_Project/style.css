@@ -514,8 +514,8 @@ main section img {
  text-align: center;
  letter-spacing: -0.1em;
  color: #FFFFFF;
- padding-top: 13rem;
- padding-bottom: 15rem;
+ padding-top: 8rem;
+ padding-bottom: 8rem;
 }
 
 /* Beide Texte */
@@ -573,12 +573,22 @@ text-decoration: none;
     font-family: 'Didact',Arial, Helvetica, sans-serif;
     display: block;
     text-decoration: none;
+    padding:40px;
 }
 
 .links a:hover{
     text-decoration: underline;
 }
 
-footer{
+footer img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px; 
 
+    animation: beat .50s infinite alternate;
+}
+
+@keyframes beat {
+    to {transform: scale(1.4);}
 }
